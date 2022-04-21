@@ -14,11 +14,11 @@ public class ItemPotionSplash extends ProjectileItem {
     @PowerNukkitOnly
     @Since("1.6.0.0-PN")
     public ItemPotionSplash() {
-        this(0, 1);
+        this(0, 64);
     }
 
     public ItemPotionSplash(Integer meta) {
-        this(meta, 1);
+        this(meta, 64);
     }
 
     public ItemPotionSplash(Integer meta, int count) {
@@ -43,7 +43,7 @@ public class ItemPotionSplash extends ProjectileItem {
 
     @Override
     public int getMaxStackSize() {
-        return 1;
+        return 64;
     }
 
     @Override
